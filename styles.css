@@ -7,11 +7,33 @@ html {
 body {
     font-size: 1.6rem;
     font-family: "Karla", sans-serif;
+    background-color: #e6eff6;
+    line-height: 1.5;
 }
 
 h1,
 h2 {
     font-weight: 700;
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+}
+
+h2 {
+    color: #fff;
+}
+
+h1 + h2 {
+    color: hsl(71, 73%, 54%);
+}
+
+h1 + h2 ~ p {
+    color: hsl(218, 22%, 67%);
+}
+
+p {
+    color: hsl(204, 43%, 93%);
 }
 
 a {
@@ -25,13 +47,33 @@ a {
 }
 
 .offer {
-    width: 90%;
-    margin: 0 auto;
+    display: grid;
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 .offer-item {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
+    padding: 1.5rem;
+}
+
+.subscription {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.background-white {
+    background-color: #fff;
+}
+
+.background-cyan {
+    background-color: hsl(179, 62%, 43%);
+}
+
+.background-blue {
+    background-color: #4abebd;
 }
 
 .btn {
@@ -40,5 +82,5 @@ a {
     color: #fff;
     padding: 1rem 2rem;
     text-align: center;
-    width: 100%;
+    width: inherit;
 }
