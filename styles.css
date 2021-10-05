@@ -13,3 +13,32 @@ h1,
 h2 {
     font-weight: 700;
 }
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.offer {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.offer-item {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    background-color: hsl(71, 73%, 54%);
+    color: #fff;
+    padding: 1rem 2rem;
+    text-align: center;
+    width: 100%;
+}
